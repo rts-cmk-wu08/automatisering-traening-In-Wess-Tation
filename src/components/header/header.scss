@@ -1,0 +1,11 @@
+body {
+    margin: 0 auto;
+}
+.header {
+    font-family: Merriweather;
+    padding-bottom: 20rem;
+    position: relative;
+    &__img {
+        max-width: 100%;
+    }
+}

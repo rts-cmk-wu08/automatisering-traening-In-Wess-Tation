@@ -1,11 +1,11 @@
 import section from "./components/advantages/section.js"
 import facilitySection from "./components/facility/facilitySection.js"
 import promoveringSection from "./components/promovering/promoveringSection.js"
-import headerSection from "./components/header/headerSection.js"
+import header from "./components/header/header.js"
 
 let element = document.querySelector(".wrapper")
     
-element.append(headerSection())
+element.append(header())
 element.append(promoveringSection())
 element.append(facilitySection())
 element.append(section())
