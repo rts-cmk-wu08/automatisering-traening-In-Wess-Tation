@@ -1,3 +1,26 @@
 .site-article {
+display: flex;
+padding-bottom: 13rem;
 
+    &__headline {
+        font-size: 2rem;
+    }
+    &__text {
+        color: gray;
+    }
+    &__btn {
+        background-color: #F78065;
+        padding: 1rem 5rem;
+        border: none;
+    }
+    &__a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.site-box {
+    padding-right: 5rem;
+
+  
 }

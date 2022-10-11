@@ -1,3 +1,4 @@
+import sitePlaces from "./sitePlaces.js"
 import "./siteArticle.scss"
 
 let siteArticle = function (sites) {
@@ -9,13 +10,13 @@ let siteArticle = function (sites) {
     <div class="site-box">
         <h1 class="site-article__headline">${sites.headline}</h1>
         <p class="site-article__text">${sites.text}</p>
-        <button class="site-box__btn"><a href="${sites.btnicon}"><i class="fa-solid fa-play"></i> Start</a></button>
+        <button class="site-article__btn"><a class="site-article__a" href="${sites.btnicon}"><i class="fa-solid fa-play"></i> Start</a></button>
     </div>
 
 `
     sites.places.forEach(place => {
         console.log(place)
-        element.append(sitePlaces(sites))
+        element.append(sitePlaces(place))
 
     })
 

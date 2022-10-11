@@ -1,15 +1,16 @@
-import "./siteArticle.scss"
+import "./sitePlaces.scss"
 
 let siteArticle = function (sites) {
 
     let element = document.createElement('article')
-    element.classList.add("site-article")
+    element.classList.add("grid")
 
     element.innerHTML = `
     <div class="places-grid">
-        <img class="places-grid__img" src="${sites.img}" alt="">
-        <h2 class="places-grid__h2">${sites.name}</h2>
-        <p class="places-grid__p">${sites.city}</p>
+        <img class="grid__img" src="${sites.img}" alt="">
+        <h2 class="grid__h2">${sites.name}</h2>
+        <p class="grid__p">${sites.city}</p>
+        <p class="grid__view">View the site</p>
     </div>
 
 `
