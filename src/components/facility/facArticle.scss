@@ -1,0 +1,17 @@
+.fac-article {
+    display: flex;
+    flex-direction: column;
+    &__headline {
+        padding: 2rem 0 1rem 0;
+        font-weight: 900;
+        font-size: 1.4rem;
+    }
+    &__img {
+        max-width: 3rem;
+    }
+    &__text {
+        color: gray;
+        margin-top: auto;
+    }
+
+}

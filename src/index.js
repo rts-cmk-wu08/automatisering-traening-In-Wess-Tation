@@ -1,4 +1,4 @@
-import section from "./components/section.js"
+import section from "./components/advantages/section.js"
 
 let element = document.querySelector(".wrapper")
     

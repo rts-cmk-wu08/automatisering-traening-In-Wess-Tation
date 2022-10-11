@@ -1,4 +1,4 @@
-import advSection from "./advSection.js"
+import facSection from "./facSection.js"
 import "./section.scss"
 
 let section = function() {
@@ -7,9 +7,9 @@ let section = function() {
     element.classList.add("section")
 
     element.innerHTML = `
-        <h1>Our Advantages</h1>
+        <h1 class="section__h1">Our Advantages</h1>
     `
-element.append(advSection())
+element.append(facSection())
 
 return element
 }
