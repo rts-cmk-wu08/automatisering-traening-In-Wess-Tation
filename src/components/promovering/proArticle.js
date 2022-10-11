@@ -9,7 +9,7 @@ let proArticle = function (services) {
     <img class="pro-article__img" src="${services.illustration}" alt="">
     <h1 class="pro-article__headline">${services.headline}</h1>
     <p class="pro-article__text">${services.text}</p>
-    <p class="pro-article__link">Show me more</p>
+    <p class="pro-article__link">${services.linktext}</p>
 
 `
 return element
