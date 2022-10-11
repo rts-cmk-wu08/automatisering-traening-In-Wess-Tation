@@ -1,6 +1,6 @@
 import { facilities } from "../../data.js"
 import facArticle from "./facArticle.js"
-import "./advSection.scss"
+import "./facSection.scss"
 
 console.log(facilities)
 let facSection = function() {
