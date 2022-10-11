@@ -1,5 +1,5 @@
 import siteSection from "./siteSection.js"
-import "./site.scss"
+import "./sites.scss"
 
 let site = function() {
 

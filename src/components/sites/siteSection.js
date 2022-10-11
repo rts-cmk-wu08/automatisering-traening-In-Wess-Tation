@@ -1,18 +1,20 @@
-import { site } from "../../data.js"
+import { sites } from "../../data.js"
 import siteArticle from "./siteArticle.js"
 import "./siteSection.scss"
 
-console.log(services)
+console.log(sites)
 let siteSection = function() {
 
 let element = document.createElement('div')
-element.classList.add('services')
+element.classList.add('sites')
 
-services.forEach(service => {
+// sites.places.forEach(site => {
+// element.innerHTML = `
+//     <h1 class="section__h1">${site.headline}</h1>
+// `
+    element.append(siteArticle(sites))
 
-    element.append(siteArticle(service))
-
-})
+// })
 
 
 return element
