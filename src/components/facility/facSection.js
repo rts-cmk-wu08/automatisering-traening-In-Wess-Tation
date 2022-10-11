@@ -8,9 +8,9 @@ let facSection = function() {
 let element = document.createElement('div')
 element.classList.add('facilities')
 
-facilities.forEach(facility => {
+facilities.options.forEach(facility => {
 
-    element.append(advArticle(facility))
+    element.append(facArticle(facility))
 
 })
 

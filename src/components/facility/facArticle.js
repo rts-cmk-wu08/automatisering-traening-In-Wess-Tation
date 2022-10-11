@@ -9,6 +9,7 @@ let facArticle = function (facilities) {
     <img class="fac-article__img" src="${facilities.icon}" alt="">
     <h1 class="fac-article__headline">${facilities.headline}</h1>
     <p class="fac-article__text">${facilities.text}</p>
+    <p class="fac-article__link">Show me more</p>
 
 `
 return element
