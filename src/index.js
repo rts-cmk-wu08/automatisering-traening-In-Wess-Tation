@@ -2,6 +2,7 @@ import section from "./components/advantages/section.js"
 import facilitySection from "./components/facility/facilitySection.js"
 import promoveringSection from "./components/promovering/promoveringSection.js"
 import header from "./components/header/header.js"
+import "./index.scss"
 
 let element = document.querySelector(".wrapper")
     

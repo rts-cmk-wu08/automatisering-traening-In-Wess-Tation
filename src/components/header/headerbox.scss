@@ -1,3 +1,30 @@
-.header {
+.box {
     position: absolute;
+    background-color: white;
+    padding: 2rem;
+    width: 30rem;
+    padding-right: 10rem;
+    margin-left: 10rem;
+    margin-top: -15rem;
+    font-family: Merriweather;
+
+    &__h1 {
+        font-size: 2.3rem;
+    }
+    &__p {
+        font-size: 1.2rem;
+        color: gray;
+    }
+    &__btn {
+        background-color: orange;
+        border: none;
+        padding: 1rem 4rem;
+        margin-top: 5rem;
+        
+    }
+    &__a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
 }
