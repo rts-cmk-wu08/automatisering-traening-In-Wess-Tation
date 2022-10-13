@@ -8,14 +8,14 @@ let siteSection = function() {
 let element = document.createElement('div')
 element.classList.add('sites')
 
-// sites.places.forEach(site => {
-// element.innerHTML = `
-//     <h1 class="section__h1">${site.headline}</h1>
-// `
+    fetch("http://localhost:4000/sites")
+    .then(response => response.json())
+    .then(sites => {
+
+
     element.append(siteArticle(sites))
 
-// })
-
+    })
 
 return element
 }
