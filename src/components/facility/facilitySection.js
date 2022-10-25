@@ -1,3 +1,4 @@
+import facSection from "./facSection"
 import "./facilitySection.scss"
 
 let facilitySection = function() {
