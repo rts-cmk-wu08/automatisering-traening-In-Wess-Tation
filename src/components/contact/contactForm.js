@@ -39,7 +39,7 @@ let ContactForm = function() {
         <label for="message">Message:</label>
         <textarea name="message" id="message" cols="30" rows="10" required minlength="10" placeholder="Write message here... "></textarea>
     </div>
-    <button type="submit">Send!</button>
+    <button class="btn" type="submit">Send!</button>
 
     `
 
