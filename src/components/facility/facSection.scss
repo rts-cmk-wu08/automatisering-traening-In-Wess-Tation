@@ -1,0 +1,7 @@
+.facilities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    font-family: Merriweather;
+    padding-top: 3rem;
+}
